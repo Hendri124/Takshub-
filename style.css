@@ -120,8 +120,7 @@ ul {
 
 .banner img {
   width: 100%;
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
   display: block;
-  max-width: 1200px;
 }
