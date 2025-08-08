@@ -16,6 +16,7 @@ body {
   box-shadow: 0 8px 16px #acacac;
   color: #fff;
   padding: 20px;
+  border-radius: 15px;
 }
 
 .logo {
@@ -60,8 +61,9 @@ body {
     align-items: flex-start;
     padding: 10px;
     display: none;
+    border-radius: 15px;
   }
-
+  
   .nav-links.active {
     display: flex;
   }
@@ -69,4 +71,40 @@ body {
   .hamburger {
     display: flex;
   }
+}
+p{
+  text-align: center;
+  margin: 35px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.fitur,.fitur2,.fitur3{
+  background-color: #ffff;
+  box-shadow:0 18px 18px #dcdcdc;
+  padding: 15px;
+  border-radius: 14px;
+  margin:15px;
+}
+.fitur p,.fitur2 p,.fitur3 p{
+  font-size: 15px;
+}
+.fitur h3,.fitur2 h3,.fitur3 h3{
+  text-align: center;
+}
+
+footer{
+  background-color:#4a3e3e ;
+  padding: 15px;
+;
+}
+footer h3{
+  font-size: 15px;
+  color:white;
+  text-align: center;
+}
+footer a{
+  color:white;
+  margin:5px;
+  text-decoration: none;
 }

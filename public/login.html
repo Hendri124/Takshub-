@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Form</title>
+    <style>
+        form {
+            background-color: #fcfcfc;
+            box-shadow: 0 8px 16px #b5acac;
+            padding: 20px;
+            max-width: 300px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        
+        p {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        
+        input {
+            display: block;
+            width: 100%;
+            margin: 10px auto;
+            border-radius: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        
+        a {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            color: #4a6dba;
+            text-decoration: none;
+        }
+        
+        #btn {
+            background-color: #cabc54;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px auto;
+            display: block;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        #btn:hover {
+            background-color: #4a6dba;
+        }
+    </style>
+</head>
+<body>
+    <form id="login">
+        <p>Login</p>
+        <input type="text" id="username" placeholder="Masukan Username">
+        <input type="password" id="password" placeholder="Masukan Password">
+        <a href="Registrasi.html">Belum punya akun?</a>
+        <button id="btn" type="submit">Login</button>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
