@@ -117,10 +117,10 @@ ul {
   margin:15px;
   text-align: center;
 }
-
 .banner img {
   width: 100%;
-  max-width: 200%;
+  max-width: 800px; /* bebas, tapi biasanya antara 600-1000px enak */
   height: auto;
   display: block;
+  margin: 0 auto;
 }
