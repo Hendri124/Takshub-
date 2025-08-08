@@ -114,8 +114,6 @@ ul {
   list-style-type: none;
 }
 .banner {
-  
-  max-width: 1200px;
   margin:15px;
   text-align: center;
 }
@@ -125,4 +123,5 @@ ul {
   max-width: 100%;
   height: auto;
   display: block;
+  max-width: 1200px;
 }
