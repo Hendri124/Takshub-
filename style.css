@@ -113,3 +113,9 @@ footer a{
 ul {
   list-style-type: none;
 }
+.banner img{
+  width: 100%;
+  margin:15px;
+  height: 100%;
+  max-width: 100%;
+}
