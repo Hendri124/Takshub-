@@ -96,7 +96,7 @@ p{
 footer{
   background-color:#4a3e3e ;
   padding: 15px;
-;
+style-type: none;
 }
 footer h3{
   font-size: 15px;
@@ -105,6 +105,11 @@ footer h3{
 }
 footer a{
   color:white;
-  margin:5px;
+  margin:15px;
   text-decoration: none;
+  text-align: center;
+  
+}
+ul {
+  list-style-type: none;
 }
