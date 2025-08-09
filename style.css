@@ -75,17 +75,27 @@ body {
 p{
   text-align: center;
   margin: 35px;
-  font-size: 25px;
+  ;
   font-style: italic;
 }
-
-.fitur,.fitur2,.fitur3{
-  background-color: #ffff;
-  box-shadow:0 18px 18px #dcdcdc;
+.fitur,
+.fitur2,
+.fitur3 {
+  background-color: #fff;
+  box-shadow: 0 18px 18px #dcdcdc;
   padding: 15px;
   border-radius: 14px;
-  margin:15px;
+  margin: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.fitur:hover,
+.fitur2:hover,
+.fitur3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 25px #c0c0c0;
+}
+.
 .fitur p,.fitur2 p,.fitur3 p{
   font-size: 15px;
 }
