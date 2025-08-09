@@ -37,12 +37,13 @@
   </style>
 </head>
 <body>
-  <div class="contact">
+  <form class="contact" id="form">
     <h2>Contact to Developer</h2>
-    <input type="email" placeholder="masukan email anda">
-    <input type="text" placeholder="Masukan Nama Anda">
- <textarea rows="5" cols="40" class="input" placeholder="Tulis sesuatu di sini..."></textarea>
-    <button class="btn" id="pesan">Kirim</button>
-  </div>
+    <input type="email" id="email"placeholder="masukan email anda">
+    <input type="text" id="nama"placeholder="Masukan Nama Anda">
+ <textarea rows="5" cols="40" id="text" class="input" placeholder="Tulis sesuatu di sini..."></textarea>
+    <button type="submit" class="btn" id="pesan">Kirim</button>
+  </form>
+  <script src="contact.js"></script>
 </body>
 </html>
