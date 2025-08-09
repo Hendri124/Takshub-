@@ -10,4 +10,5 @@ form.addEventListener('submit',(x)=>{
   const data = {data_user,data_pw}
   localStorage.setItem("data",JSON.stringify(data))
   alert("login success ")
+  window.location.href = "login.html"
 })
