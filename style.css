@@ -104,7 +104,7 @@ p{
 }
 
 footer{
-  background-color:#4a3e3e ;
+  background-color:black ;
   padding: 15px;
 style-type: none;
 }
@@ -112,16 +112,6 @@ footer h3{
   font-size: 15px;
   color:white;
   text-align: center;
-}
-footer a{
-  color:white;
-  margin:15px;
-  text-decoration: none;
-  text-align: center;
-  
-}
-ul {
-  list-style-type: none;
 }
 .banner {
   margin:15px;
